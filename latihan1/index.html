@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 1140px;
+        margin-right: auto;
+        margin-left: auto;
+        /* border: 1px solid black; */
+      }
+
+      /* menu */
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      #deskripsi {
+        padding-right: 25px;
+      }
+
+      /* wadah artikel */
+      .wadah-artikel,
+      #youtube-n-map,
+      #tentang {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+
+      /* artikel */
+      .artikel {
+        width: 23%;
+      }
+
+      /* tambahan */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        /* letter-spacing: 2px;
+        line-height: 1.2; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- menu  -->
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="">TRBU News</a>
+          </li>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <br /><br />
+
+      <!-- tentang  -->
+      <div id="tentang">
+        <div id="deskripsi">
+          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio sit
+            fuga odio voluptate nobis numquam quae velit reprehenderit quibusdam
+            est vitae excepturi maxime iure, labore at sint sed, eos impedit.
+            <br /><br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolor
+            error, sequi velit necessitatibus perferendis dolorem, facilis odit
+            dolorum omnis eroro nathasu csempoa cons fdof gijan dastes
+            sentasjuio selviantio sencovidesnatus, enim saepe voluptas.
+            Praesentium pariatur voluptatem autem dolorem aspernatur!
+          </p>
+        </div>
+        <img
+          src="https://cdn.pixabay.com/photo/2017/03/27/13/51/air-force-2178863__340.jpg"
+          width="70%"
+          alt=""
+        />
+      </div>
+      <br /><br /><br />
+
+      <!-- artikel  -->
+      <div class="wadah-artikel">
+        <div class="artikel">
+          <img
+            src="https://cdn.pixabay.com/photo/2020/06/02/06/29/ryanair-5249631__340.jpg"
+            width="100%"
+            alt=""
+          />
+          <h3>Lorem Ipsum Sit Dolor Amet</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            aperiam similique ipsam eos id illum ducimus! Fuga debitis
+            blanditiis optio laborum provident explicabo expedita aliquam
+            quaerat perferendis amet, ducimus perspiciatis.
+          </p>
+          Admin | 22-06-2022
+        </div>
+        <div class="artikel">
+          <img
+            src="https://cdn.pixabay.com/photo/2019/09/05/15/25/airbus-4454338__340.jpg"
+            width="100%"
+            alt=""
+          />
+          <h3>Lorem Ipsum Sit Dolor Amet</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            aperiam similique ipsam eos id illum ducimus! Fuga debitis
+            blanditiis optio laborum provident explicabo expedita aliquam
+            quaerat perferendis amet, ducimus perspiciatis.
+          </p>
+          Admin | 22-06-2022
+        </div>
+        <div class="artikel">
+          <img
+            src="https://cdn.pixabay.com/photo/2014/10/05/13/27/aircraft-475409__340.jpg"
+            width="100%"
+            alt=""
+          />
+          <h3>Lorem Ipsum Sit Dolor Amet</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            aperiam similique ipsam eos id illum ducimus! Fuga debitis
+            blanditiis optio laborum provident explicabo expedita aliquam
+            quaerat perferendis amet, ducimus perspiciatis.
+          </p>
+          Admin | 22-06-2022
+        </div>
+        <div class="artikel">
+          <img
+            src="https://cdn.pixabay.com/photo/2022/02/14/12/10/plane-7013022__340.jpg"
+            width="100%"
+            alt=""
+          />
+          <h3>Lorem Ipsum Sit Dolor Amet</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+            aperiam similique ipsam eos id illum ducimus! Fuga debitis
+            blanditiis optio laborum provident explicabo expedita aliquam
+            quaerat perferendis amet, ducimus perspiciatis.
+          </p>
+          Admin | 22-06-2022
+        </div>
+      </div>
+      <br /><br /><br /><br />
+
+      <!-- youtube dan maps  -->
+      <div id="youtube-n-map">
+        <iframe
+          width="49%"
+          height="300"
+          src="https://www.youtube.com/embed/msDwpwuEK1I"
+          title="Video Profil (2021) Politeknik Penerbangan Palembang"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.6774101426163!2d104.69740531468734!3d-2.908892840368604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b7379005c2f29%3A0x5e411b86b9a1b4e9!2sPoliteknik%20Penerbangan%20Palembang!5e0!3m2!1sid!2sid!4v1656039869146!5m2!1sid!2sid"
+          width="49%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <br /><br /><br />
+
+      <!-- footer  -->
+      <ul>
+        <li>
+          <a href="">TRBU 2022</a>
+        </li>
+        <li><a class="active" href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

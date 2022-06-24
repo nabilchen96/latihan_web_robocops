@@ -1,0 +1,18 @@
+
+1. apa itu div?
+div singkatan dari division artinya bagian
+di dalam sebuah website akan ada banyak bagian yang berbeda
+dan untuk memisahkan antara bagian satu dengan bagian yang lain
+kita menggunakan div. div juga bisa digunakan untuk mengelompokan beberapa elemen
+
+2. cara memberikan nama pada div?
+cara memberikan nama pada div bisa menggunakan class atau id, penamaan penting
+karena untuk membedakan bagian satu dengan bagian yang lainnya.
+
+nama yang digunakan pada class atau id akan digunakan untuk 
+memberikan styling dengan css, tanpa penamaan kita pasti bingung harus memberikan
+styling pada elemen yang mana.
+
+3. perbedaan class dan id?
+class dapat digunakan lebih dari satu, sedangkan id hanya dapat digunakan sekali saja
+nantinya akan ada beberapa elemen yang sama maka kita bisa menggunakan class yang sama
