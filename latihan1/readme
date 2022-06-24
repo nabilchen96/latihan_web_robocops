@@ -16,3 +16,7 @@ styling pada elemen yang mana.
 3. perbedaan class dan id?
 class dapat digunakan lebih dari satu, sedangkan id hanya dapat digunakan sekali saja
 nantinya akan ada beberapa elemen yang sama maka kita bisa menggunakan class yang sama
+
+4. cara membuat menu pada html?
+html tidak menyediakan tag khusus untuk membuat menu, jadi 
+kita bisa memanfaatkan list lalu memberikan styling pada menu tersebut
